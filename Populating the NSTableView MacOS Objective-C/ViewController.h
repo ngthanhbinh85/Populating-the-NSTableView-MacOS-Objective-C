@@ -10,7 +10,7 @@
 #import "Student.h"
 #import "MyData.h"
 
-@interface ViewController : NSViewController <NSTableViewDataSource, NSTableViewDelegate> {
+@interface ViewController : NSViewController <NSTableViewDataSource> {
     NSMutableArray *myData;
 }
 
