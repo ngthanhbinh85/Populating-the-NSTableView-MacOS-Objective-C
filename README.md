@@ -17,7 +17,7 @@ To populate data to NSTableView, we need to implement the NSTableViewDataSource 
 
 @end
   
-myData point to the array of Student objects.
+myData points to the array of Student objects.
 
 Then, the ViewController will be the data source:
 
