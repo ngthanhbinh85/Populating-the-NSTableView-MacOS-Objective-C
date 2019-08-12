@@ -12,7 +12,6 @@
 		0B95875F23004DCA006EF100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B95875E23004DCA006EF100 /* Assets.xcassets */; };
 		0B95876223004DCA006EF100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B95876023004DCA006EF100 /* Main.storyboard */; };
 		0B95876523004DCA006EF100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95876423004DCA006EF100 /* main.m */; };
-		0B95876E23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95876D23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.m */; };
 		0B95877023004EF1006EF100 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95876F23004EF1006EF100 /* Student.m */; };
 		0B95877423005288006EF100 /* MyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95877323005288006EF100 /* MyData.m */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 		0B95876323004DCA006EF100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B95876423004DCA006EF100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B95876623004DCA006EF100 /* Populating_the_NSTableView_MacOS_Objective_C.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Populating_the_NSTableView_MacOS_Objective_C.entitlements; sourceTree = "<group>"; };
-		0B95876C23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+ViewController_NSTableViewDataSource.h"; sourceTree = "<group>"; };
-		0B95876D23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ViewController_NSTableViewDataSource.m"; sourceTree = "<group>"; };
 		0B95876F23004EF1006EF100 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		0B95877123004F00006EF100 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		0B95877223005277006EF100 /* MyData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyData.h; sourceTree = "<group>"; };
@@ -75,8 +72,6 @@
 				0B95876323004DCA006EF100 /* Info.plist */,
 				0B95876423004DCA006EF100 /* main.m */,
 				0B95876623004DCA006EF100 /* Populating_the_NSTableView_MacOS_Objective_C.entitlements */,
-				0B95876C23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.h */,
-				0B95876D23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.m */,
 				0B95876F23004EF1006EF100 /* Student.m */,
 				0B95877123004F00006EF100 /* Student.h */,
 				0B95877223005277006EF100 /* MyData.h */,
@@ -159,7 +154,6 @@
 				0B95877023004EF1006EF100 /* Student.m in Sources */,
 				0B95877423005288006EF100 /* MyData.m in Sources */,
 				0B95875A23004DC9006EF100 /* AppDelegate.m in Sources */,
-				0B95876E23004EA8006EF100 /* ViewController+ViewController_NSTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

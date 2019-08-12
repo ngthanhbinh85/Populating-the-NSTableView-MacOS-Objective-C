@@ -27,5 +27,25 @@
     // Update the view, if already loaded.
 }
 
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+    
+    return myData.count;
+    
+}
+
+- (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+    
+    NSString *columnIdentifier = [tableColumn identifier];
+    
+    if ([columnIdentifier isEqualToString:@"studentID"]) {
+        return [[myData objectAtIndex:row] studentID];
+    } else if ([columnIdentifier isEqualToString:@"studentName"]) {
+        return [[myData objectAtIndex:row] studentName];
+    } else {
+        return [[myData objectAtIndex:row] studentAddress];
+    }
+    
+}
+
 
 @end
