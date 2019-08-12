@@ -4,11 +4,11 @@ Simple example of how to populate data to an NSTableView (macOS programming with
 In this example, the data is stored in an Array of Student objects.
 
 Call this to get the Data:
-
+```
 +(NSMutableArray *)getStudentList;
-
+```
 To populate data to NSTableView, we need to implement the NSTableViewDataSource protocol.
-
+```
 @interface ViewController : NSViewController <NSTableViewDataSource> {
     NSMutableArray *myData;
 }
@@ -16,11 +16,11 @@ To populate data to NSTableView, we need to implement the NSTableViewDataSource 
 ...
 
 @end
-  
+```
 myData points to the array of Student objects.
 
 Then, the ViewController will be the data source:
-
+```
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -30,8 +30,9 @@ Then, the ViewController will be the data source:
     _myTableView.dataSource = self;
 
 }
-
+```
 Finally, implement the following 2 methods:
-
+```
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView;
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row;
+```
